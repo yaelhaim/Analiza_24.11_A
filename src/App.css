@@ -1,0 +1,57 @@
+.app {
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.app.light {
+    background-color: white;
+    color: black;
+}
+
+.app.dark {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 300px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.card.light {
+    background-color: white;
+    color: black;
+}
+
+.card.dark {
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.light button {
+    background-color: black;
+    color: white;
+}
+
+.dark button {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+}
